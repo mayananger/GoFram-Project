@@ -1,0 +1,185 @@
+<ScrollView
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="Market"
+        android:textSize="30dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="Bay"
+            android:textSize="20dp"
+            android:enabled="false" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/cucumber"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="Sell"
+            android:textSize="20dp"
+            android:onClick="cucumberSell"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="Bay"
+            android:textSize="20dp"
+            android:enabled="false" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/carrot"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="Sell"
+            android:textSize="20dp"
+            android:onClick="carrotSell"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="Bay"
+            android:textSize="20dp"
+            android:enabled="false" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/eggplant"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="Sell"
+            android:textSize="20dp"
+            android:onClick="eggplantSell"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="Bay"
+            android:textSize="20dp"
+            android:enabled="false" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/strawberry"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="Sell"
+            android:textSize="20dp"
+            android:onClick="strawberrySell"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="Bay"
+            android:textSize="20dp"
+            android:enabled="false" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/melon"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="Sell"
+            android:textSize="20dp"
+            android:onClick="melonSell"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="Bay"
+            android:textSize="20dp"
+            android:enabled="false" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/watermelon"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="Sell"
+            android:textSize="20dp"
+            android:onClick="watermelonSell"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:text="Go Beak"
+        android:textSize="20dp"
+        android:onClick="Beak"/>
+
+</LinearLayout>
+</ScrollView>

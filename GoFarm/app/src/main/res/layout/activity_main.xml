@@ -1,0 +1,256 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Your Farm"
+        android:textSize="30dp"
+        android:id="@+id/your_farm_text_view"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/cucumber" />
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:id="@+id/cucumber"
+                        style="@style/Base.TextAppearance.AppCompat.Button"
+                        android:textSize="17dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/eggplant" />
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:id="@+id/eggplant"
+                        style="@style/Base.TextAppearance.AppCompat.Button"
+                        android:textSize="17dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/melon" />
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:id="@+id/melon"
+                        style="@style/Base.TextAppearance.AppCompat.Button"
+                        android:textSize="17dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/carrot" />
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:id="@+id/carrot"
+                        style="@style/Base.TextAppearance.AppCompat.Button"
+                        android:textSize="17dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/strawberry" />
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:id="@+id/strawberry"
+                        style="@style/Base.TextAppearance.AppCompat.Button"
+                        android:textSize="17dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/watermelon" />
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:id="@+id/watermelon"
+                        style="@style/Base.TextAppearance.AppCompat.Button"
+                        android:textSize="17dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:orientation="horizontal"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/coin"/>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                style="@style/Base.TextAppearance.AppCompat.Button"
+                android:gravity="center"
+                android:id="@+id/Money"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp" >
+
+        <LinearLayout
+            android:id="@+id/FarmLinerLayoutVertical"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/FarmHor1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/FarmHor2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/FarmHor3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/FarmHor4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/FarmHor5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/House"
+        android:orientation="horizontal"
+        android:gravity="center">
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
